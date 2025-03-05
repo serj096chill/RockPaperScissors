@@ -21,7 +21,7 @@ function playGame(round) {
             computerScore++;
         }
         
-        console.log("Your Score: " + String(humanScore) + " VS Computer Score: " + String(computerScore))
+        alert("You: " + humanSelection + "\nComputer: " + computerSelection + "\nYour Score: " + String(humanScore) + " VS Computer Score: " + String(computerScore));
         
     }
 }
